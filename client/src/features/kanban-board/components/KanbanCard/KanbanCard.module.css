@@ -1,0 +1,16 @@
+.card {
+  background-color: #e9ecef;
+}
+
+.title {
+  color: #5d6b83;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+
+.issues-container {
+  min-height: 350px;
+}

@@ -1,0 +1,39 @@
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table thead tr th {
+  border-bottom-width: 2px;
+  position: sticky;
+  top: 0;
+  background-color: var(--mantine-color-gray-0);
+}
+
+.title-header {
+  width: 60%;
+}
+
+.status {
+  color: var(--mantine-color-dark-4);
+  text-transform: uppercase;
+}
+
+.title {
+  width: 60%;
+  color: var(--mantine-color-dark-4);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 0;
+}
+
+.table tr,
+.table td {
+  white-space: nowrap;
+}
+
+.table tbody tr {
+  cursor: pointer;
+}

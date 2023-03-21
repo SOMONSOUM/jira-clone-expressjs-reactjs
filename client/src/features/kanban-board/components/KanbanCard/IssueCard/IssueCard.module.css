@@ -1,0 +1,51 @@
+.draggable {
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.draggable:focus-visible {
+  outline: 2px solid #845ef7;
+  outline-offset: 1px;
+}
+
+.card {
+  background-color: #f8f9fa;
+}
+
+.card:hover {
+  background-color: #dee2e6;
+}
+
+.dragging {
+  background-color: #f3f0ff;
+}
+
+.issue-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.issue-title {
+  font-size: 0.95rem;
+}
+
+.issue-info {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #7a869a;
+  font-size: 0.9rem;
+  font-weight: 500;
+  min-height: 34px;
+}
+
+.type {
+  align-self: flex-end;
+}
+
+.priority {
+  margin-left: 2px;
+  align-self: flex-end;
+}

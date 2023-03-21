@@ -1,0 +1,53 @@
+/* Prevent header from shifting on opening/closing modals */
+.header {
+  padding-right: var(--removed-scroll-width, 0px);
+}
+
+.link {
+  width: 135px;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--violet);
+}
+
+@media (min-width: 320px) {
+  .link {
+    width: 145px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .link {
+    width: 155px;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .link {
+    width: 185px;
+    margin: 0;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}
