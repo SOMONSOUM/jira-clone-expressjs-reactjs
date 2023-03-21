@@ -48,14 +48,14 @@
 - Client
   - env variable: REACT_APP_API_URL
   - ```
-      cd project-management-app/client
+      cd jira-clone-expressjs-reactjs/client
       npm install
       npm start
     ```
 - Server
   - env variables: PORT, MONGO_URI, ORIGIN, ACCESS_TOKEN_SECRET, TOKEN_EXPIRE_TIME, DEMO_PASSWORD
   - ```
-      cd project-management-app/server
+      cd jira-clone-expressjs-reactjs/server
       npm install
       npm run dev
     ```
