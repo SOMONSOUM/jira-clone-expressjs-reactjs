@@ -7,7 +7,7 @@
 
 ## Demo
 
-### [Live Demo](https://project--hub.vercel.app) 
+### [Live Demo](https://project--hub.vercel.app)
 
 - Click "Quick Demo" to skip login
 
@@ -42,7 +42,7 @@
 - Clone repo
 
 ```bash
-  git clone https://github.com/zachloh/project-management-app.git
+  git clone https://github.com/SOMONSOUM/jira-clone-expressjs-reactjs.git
 ```
 
 - Client
