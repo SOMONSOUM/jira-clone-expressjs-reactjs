@@ -21,6 +21,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'import'],
   rules: {
+    'linebreak-style': ['error', 'windows'],
     'import/no-unresolved': 'error',
     'import/order': [
       'error',
